@@ -1,0 +1,142 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    box-sizing: border-box;.
+    margin: 0;
+    padding: 0;
+/*    border: 1px solid gray*/
+}
+    
+header ul {
+    list-style-type: none;
+}
+header li{
+    display: inline-block;
+    padding: 5px 10px
+    }
+
+nav ul {
+    text-align: center
+}
+
+nav a:link   {color:#a5a5a5}
+nav a:visited{color:#a5a5a5}
+nav a:hover{
+    color:#0077d1;
+    /*background: #5a73bc;*/    
+    /*text-decoration: underline*/
+}
+nav a{
+    text-decoration: none
+}
+
+h1{
+    font-size: 1.5rem;
+    color: #1a4a96
+}
+h2{
+    color: #3e4a62;
+    font-size: 1.4rem;
+    text-align: center
+}
+
+h3,h4,h5,h6{
+    color: #333;
+    font-size: 1.1rem
+}
+
+
+/* фон блоку и в него текст или позиция*/
+/*#test-ride img {
+    width:400px
+/*position:}*/
+
+/* форма */
+#contacts .row:nth-child(4) *{
+    vertical-align: top
+}
+
+#contacts label {
+    display: inline-block;
+    width: 150px;
+    margin: 10px
+}
+
+#contacts input,
+#contacts textarea {
+    width: 300px
+}
+
+#contacts .row:nth-child(5) input,
+#contacts .row:nth-child(6) input {
+    width: auto;
+    }
+
+
+#contacts .row:nth-child(7) input {
+    width: auto;
+}
+#contacts textarea {
+    height: 150px
+}
+
+/* макет */
+.wrapper {
+    width: 992px;
+    margin: auto
+}
+
+#catalog .col{
+    display: table;
+    vertical-align: top;
+    }
+#catalog .col{
+    display: table-cell;
+    width: 25%;
+    vertical-align: top;
+    }
+#catalog img {
+    opacity: .9;
+    width: 100%
+    }
+#catalog img:hover{
+    opacity: 1
+}
+
+#test-ride .col{
+    display: table;
+    vertical-align: top;
+    }
+#test-ride .col{
+    display: table-cell;
+    width: 25%;
+    border: 1px solid #FFFFFF;
+    vertical-align: top;
+}
+#test-ride iframe {
+    width: 100%
+    }
+
+#feedback .col{
+    display: table;
+    vertical-align: top;
+    text-align: center
+    }
+#feedback .col{
+    display: table-cell;
+    width: 25%;
+    vertical-align: middle;
+}
+
+#feedback iframe {
+    width: 450px;
+    height: 300px
+    }
+address {
+    font-style:normal
+}
+
+footer {
+    text-align: center;
+    }
