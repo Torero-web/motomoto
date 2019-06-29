@@ -8,10 +8,10 @@
 /*    border: 1px solid gray*/
 }
     
-header ul {
+nav ul {
     list-style-type: none;
 }
-header li{
+nav li{
     display: inline-block;
     padding: 5px 10px
     }
@@ -82,7 +82,7 @@ h3,h4,h5,h6{
 }
 
 /* макет */
-.wrapper {
+#wrapper {
     width: 992px;
     margin: auto
 }
@@ -108,12 +108,14 @@ h3,h4,h5,h6{
     display: table;
     vertical-align: top;
     }
+
 #test-ride .col{
     display: table-cell;
     width: 25%;
     border: 1px solid #FFFFFF;
     vertical-align: top;
 }
+
 #test-ride iframe {
     width: 100%
     }
