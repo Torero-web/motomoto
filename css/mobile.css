@@ -1,0 +1,87 @@
+/*
+*{  
+    border: 1px solid gray
+}
+*/
+
+header {
+    text-align: center;
+}
+
+#banner{
+    font-size: 40px
+}
+
+#wrapper {
+    width: 100%;
+    margin: auto
+}
+
+nav ul, nav li{
+    padding: 0;
+    margin: 0;
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+nav a{
+    font-size: 2rem;
+}
+
+
+#catalog .col{
+    display: block;
+    margin: auto;
+    width: 50%
+}
+
+#test-ride .col{
+    display: block;
+    margin: auto;
+    width: 50%
+}
+
+/*
+iframe {
+    width: 100%;
+}
+*/
+
+#feedback .col{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#feedback .col iframe {
+    width: 100%;
+}
+
+
+/*
+#feedback .col{
+    display: block;
+    text-align: center; 
+    vertical-align: middle;
+    margin: auto
+    }
+
+#feedback .col iframe {
+    position:relative;
+    right:75%;
+}
+*/
+
+#contacts input,
+#contacts textarea
+{
+    width: 100%
+}
+#contacts input, #contacts textarea{
+    display: block;
+    font-size: 2rem;
+    padding: 5px
+    
+}
