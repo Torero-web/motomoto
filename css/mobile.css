@@ -34,13 +34,13 @@ nav a{
 #catalog .col{
     display: block;
     margin: auto;
-    width: 50%
+    width: 60%
 }
 
 #test-ride .col{
     display: block;
     margin: auto;
-    width: 50%
+    width: 60%
 }
 
 /*
@@ -59,20 +59,6 @@ iframe {
     width: 100%;
 }
 
-
-/*
-#feedback .col{
-    display: block;
-    text-align: center; 
-    vertical-align: middle;
-    margin: auto
-    }
-
-#feedback .col iframe {
-    position:relative;
-    right:75%;
-}
-*/
 
 #contacts input,
 #contacts textarea
